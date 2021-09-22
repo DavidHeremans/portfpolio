@@ -6,6 +6,7 @@ export default function Title (props){
     return(
         <div className="container section" className={styles.title} id="home">
         <div className="row">
+            
 
             <div className="col-5">
                 <div className={styles.vertical_center}>
