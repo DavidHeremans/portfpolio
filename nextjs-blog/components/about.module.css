@@ -1,0 +1,12 @@
+.image_container {
+    height: 70%;
+    width: 40%;
+    display: block;
+    margin: 0 auto !important;
+
+}
+
+.img {
+    width: 100% !important;
+    height: 100px !important;
+}

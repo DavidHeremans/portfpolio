@@ -1,0 +1,47 @@
+.navbar {
+    margin: 20px 0;
+  }
+
+  .container{
+      width: 100%;
+  }
+  
+  .row{
+      width: 100%;
+  }
+
+  .nav {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 1em 2em;
+  }
+  
+  .nav li a {
+    font-size: 14px;
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    text-decoration: underline !important;
+    background-color: transparent !important;
+  }
+
+  .svg{
+      float: right; 
+    top: 40px;
+    position: absolute;
+    right: 111px;
+    color: gray;
+    cursor: pointer;
+    
+  }
+
+  .svg:hover{
+    color: #242424;
+  }

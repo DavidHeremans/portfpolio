@@ -1,0 +1,47 @@
+.vertical_center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .bg_home {
+    position: absolute !important;
+    right: -100px !important;
+    height: 80vh !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    opacity: 0.3;
+    overflow: hidden;
+  }
+
+  
+.title{
+    height: 90vh;
+    min-height: 650px;
+  }
+  
+  .h1 {
+    font-family: Rasa !important;
+    font-size: 80px !important;
+  }
+  
+  .sub_title {
+    position: relative;
+    left: 20px;
+  }
+  
+  .sub_title p {
+    font-weight: normal !important;
+  }
+  
+  .sub_title input {
+    font-size: 18px;
+    padding: 5px 2em;
+    margin: 5px 10px 0 0;
+    font-family: Rasa !important;
+  }
+  
+
+  
