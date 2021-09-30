@@ -4,6 +4,8 @@ import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faHighlighter } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link'
+import React, { useState } from 'react';
+
 
 
 library.add(
