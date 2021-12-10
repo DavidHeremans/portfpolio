@@ -26,9 +26,9 @@ export default function Navigation (props){
                     <li><a href="#contact">Contact</a></li>
                     
                 </ul>
-                <Link href="https://www.linkedin.com/in/david-heremans/">
+                <a href="https://www.linkedin.com/in/david-heremans/">
                 <FontAwesomeIcon className={styles.svg} icon={faLinkedin}/>
-                </Link>
+                </a>
             </nav>
 
           

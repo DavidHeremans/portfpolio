@@ -7,11 +7,9 @@ export default function MyWork (props){
     return(
     <div className=" section" id="work">
     <div className="row">
-        <div className="col-3 section-title">
-            <h2>My work</h2>
-        </div>
-
+    <h2>My work</h2>
         <div className="col-5">
+        
           <Image 
           src={Relotrust} 
           alt="Website Relotrust"></Image>

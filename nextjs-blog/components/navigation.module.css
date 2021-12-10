@@ -23,7 +23,7 @@
   
   .nav li a {
     font-size: 14px;
-    color: #242424;
+    color: white;
     text-decoration: none;
   }
   
@@ -43,5 +43,5 @@
   }
 
   .svg:hover{
-    color: #242424;
+    color: white;
   }

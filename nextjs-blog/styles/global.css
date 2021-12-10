@@ -27,7 +27,7 @@ body {
   margin: 0;
   font-family: Poppins !important;
   line-height: 1.6;
-  background-color: #F2FFEA !important;
+  background: linear-gradient(180deg, #002230 0%, #135976 100%) !important;
 
 }
 
@@ -40,6 +40,9 @@ img {
   display: block;
 }
 
+p{
+  color: white;
+}
 
 
 .section{
@@ -55,6 +58,7 @@ img {
   background-color: #5D9FBD;
   color: white;
   border: 1px solid #5D9FBD;
+  border-radius: 10px;
 }
 
 .btnSubmit {
@@ -63,10 +67,10 @@ img {
 }
 
 .btnContact {
-  background-color: transparent;
   background: #F2FFEA;
-  border: 1px solid #677176;
+  border: 1px solid white;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 
@@ -86,11 +90,13 @@ img {
 
 .edu-school{
   margin-top: 2em;
+  color: white;
 }
 
 .section-subtitle{
-  font-family: Rasa;
-  font-size: 40px;
+  font-family: Poppins Bold;
+  font-size: 25px;
+  color: white;
 }
 
 .school{
@@ -105,16 +111,12 @@ img {
 }
 
 h2{
-  font-family: Rasa;
-  font-size: 40px !important;
+  font-family: "Poppins Bold";
+  font-size: 25px !important;
+  color: white;
   width: fit-content;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
- 
+  margin-bottom: 2em;
+  text-decoration: underline white;
 }
 .form{
   width: 80%;
@@ -128,6 +130,6 @@ h2{
 
 .form-group input, .form-group textarea{
   background-color: #F2FFEA !important;
-  border-radius: 0 !important;
+  border-radius: 10px !important;
   border: 1px solid #D3D3D3 !important;
 }

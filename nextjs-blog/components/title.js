@@ -24,7 +24,7 @@ export default function Title (props){
                 </div>
             </div>
             <div  className="col-7">
-                <Image src={bg} alt='background image'  className={styles.bg_home} ></Image>
+               
             </div>
         </div>
     </div>

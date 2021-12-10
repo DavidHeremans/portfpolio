@@ -23,8 +23,9 @@
   }
   
   .h1 {
-    font-family: Rasa !important;
-    font-size: 80px !important;
+    font-family: Poppins Bold !important;
+    font-size: 50px !important;
+    color: white;
   }
   
   .sub_title {
@@ -34,13 +35,14 @@
   
   .sub_title p {
     font-weight: normal !important;
+    color: white;
   }
   
   .sub_title input {
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px 2em;
     margin: 5px 10px 0 0;
-    font-family: Rasa !important;
+    font-family: Poppins !important;
   }
   
 
