@@ -9,7 +9,7 @@ async function sendEmail(req, res) {
       to: "heremansda@gmail.com", // Your email where you'll receive emails
       from: "david.heremans@hotmail.com", // your website email address here
       subject: `${req.body.subject}`,
-      html: `<div>You've got a mail</div>`,
+      html: `<div>${req.body.message}</div>`,
     });
   } catch (error) {
     // console.log(error);

@@ -53,12 +53,16 @@ p{
   padding: 5em 0;
 }
 
+.content{
+  margin-top: 2em !important
+}
+
 
 .btnWork, .btnSubmit {
   background-color: #5D9FBD;
   color: white;
   border: 1px solid #5D9FBD;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .btnSubmit {
@@ -70,7 +74,7 @@ p{
   background: #F2FFEA;
   border: 1px solid white;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
@@ -112,11 +116,11 @@ p{
 
 h2{
   font-family: "Poppins Bold";
-  font-size: 25px !important;
+  font-size: 20px !important;
   color: white;
   width: fit-content;
   margin-bottom: 2em;
-  text-decoration: underline white;
+  text-decoration: underline #5D9FBD 3px !important;
 }
 .form{
   width: 80%;
@@ -132,4 +136,8 @@ h2{
   background-color: #F2FFEA !important;
   border-radius: 10px !important;
   border: 1px solid #D3D3D3 !important;
+}
+
+label{
+  color: white;
 }

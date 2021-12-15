@@ -1,15 +1,6 @@
 .navbar {
     margin: 20px 0;
   }
-
-  .container{
-      width: 100%;
-  }
-  
-  .row{
-      width: 100%;
-  }
-
   .nav {
     width: fit-content;
     margin: 0 auto;
@@ -21,16 +12,6 @@
     padding: 1em 2em;
   }
   
-  .nav li a {
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav li a:hover {
-    text-decoration: underline !important;
-    background-color: transparent !important;
-  }
 
   .svg{
       float: right; 
@@ -44,4 +25,32 @@
 
   .svg:hover{
     color: white;
+  }
+
+
+  .nav li a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    color: white;
+    
+  }
+  
+  .nav li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    background-color: #5D9FBD;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }

@@ -84,11 +84,9 @@ export default function Contact() {
 
     return (
         <div className=" section" id="contact">
-        <div className="row">
-            <div className="col-3 section-title">
+        <div className="row">       
                 <h2>Get in Touch</h2>
-            </div>
-            <div className="col-9">
+            <div className="col-12">
                 <form onSubmit={handleSubmit}>
                 <div className="form">
                     <div className="form-group">
