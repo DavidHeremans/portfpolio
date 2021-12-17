@@ -1,4 +1,6 @@
 import styles from './title.module.css'
+import back from '../public/images/Ellipse.svg'
+import Image from 'next/dist/client/image'
 
 export default function Title (props){
     return(
@@ -22,7 +24,9 @@ export default function Title (props){
                 </div>
             </div>
             <div  className="col-7">
-               
+                <div className={styles.svg}>
+                <Image  src={back} height={438} width={438} />
+                </div>
             </div>
         </div>
     </div>

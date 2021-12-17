@@ -5,7 +5,7 @@ import style from "./about.module.css";
 export default function About() {
     return (
         <div className=" section" id="about">
-            <h2>About Me</h2>
+            <h2>About me</h2>
             <div className="row content">
 
                 <div className="col-lg-5 col-sm-12">

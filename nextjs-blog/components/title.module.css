@@ -45,6 +45,12 @@
     margin: 10px 10px 0 0;
     font-family: Poppins !important;
   }
+
+  .svg{
+    position: relative !important;
+    left: 100px !important;
+    top: 150px !important;
+  }
   
 
   
